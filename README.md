@@ -175,7 +175,7 @@ IPL-Cricket-Analytics/
 
 ## Winning Pattern Analysis
 
-![Winning Pattern](winning_pattern.png.png)
+![Winning Pattern Analysis](winning_pattern.png.png)
 
 ---
 
