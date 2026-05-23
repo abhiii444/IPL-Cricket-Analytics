@@ -135,35 +135,65 @@ IPL-Cricket-Analytics/
 
 ---
 
-## Screenshots
+# Project Screenshots
 
-### Team Wins Analysis
+## Most Successful IPL Teams
 
-![Team Wins](screenshots/team_wins.png)
-
----
-
-### Top Run Scorers
-
-![Top Batters](screenshots/top_batsmen.png)
+![Most Successful IPL Teams](screenshots/team_wins.png.png)
 
 ---
 
-### Top Wicket Takers
+## Top Run Scorers
 
-![Top Bowlers](screenshots/top_bowlers.png)
-
----
-
-### Correlation Heatmap
-
-![Heatmap](screenshots/heatmap.png)
+![Top Run Scorers](screenshots/top_run_scorers.png.png)
 
 ---
 
-### Feature Importance Analysis
+## Top Wicket Takers
 
-![Feature Importance](screenshots/feature_importance.png)
+![Top Wicket Takers](screenshots/top_wicket_takers.png.png)
+
+---
+
+## Season Wise Total Runs
+
+![Season Wise Total Runs](screenshots/season_wise_runs.png.png)
+
+---
+
+## Runs Across Match Phases
+
+![Runs Across Match Phases](screenshots/match_phases.png.png)
+
+---
+
+## Toss Decision Distribution
+
+![Toss Decision Distribution](screenshots/toss_decision.png.png)
+
+---
+
+## Winning Pattern Analysis
+
+![Winning Pattern](screenshots/winning_pattern.png.png)
+
+---
+
+## Chasing vs Defending Wins
+
+![Chasing vs Defending Wins](screenshots/chasing_vs_defending.png.png)
+
+---
+
+## Correlation Heatmap
+
+![Correlation Heatmap](screenshots/heatmap.png.png)
+
+---
+
+## Confusion Matrix
+
+![Confusion Matrix](screenshots/confusion_matrix.png.png)
 
 ---
 
