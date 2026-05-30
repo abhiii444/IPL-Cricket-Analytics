@@ -1,12 +1,12 @@
 # IPL-Cricket-Analytics
 Advanced IPL Cricket Analytics Project using Python, Machine Learning, Data Visualization, and Statistical Analysis to uncover match-winning insights from ball-by-ball IPL data.
-# IPL Cricket Analytics Project
+# 🏏 IPL Cricket Analytics Project
 
 ## Project Overview
 
-This project performs advanced analytics on historical IPL (Indian Premier League) cricket data using Python, Machine Learning, and Data Visualization techniques. The analysis focuses on uncovering insights related to team performance, batting trends, bowling efficiency, toss impact, venue behavior, player consistency, and match-winning patterns using ball-by-ball IPL datasets.
+This project performs advanced analytics on historical IPL (Indian Premier League) data using Python, Machine Learning, Statistical Analysis, and Data Visualization techniques.
 
-The project also includes a Machine Learning model to predict IPL match winners based on historical match features.
+The objective is to uncover match-winning insights, player performance trends, venue behavior, toss impact, batting patterns, bowling efficiency, and predictive analytics using ball-by-ball IPL datasets.
 
 ---
 
@@ -17,7 +17,7 @@ The project also includes a Machine Learning model to predict IPL match winners 
 - NumPy
 - Matplotlib
 - Seaborn
-- Scikit-learn
+- Scikit-Learn
 - Machine Learning
 - Exploratory Data Analysis (EDA)
 
@@ -26,12 +26,14 @@ The project also includes a Machine Learning model to predict IPL match winners 
 ## Dataset Information
 
 The project uses:
-- `matches.csv`
-- `deliveries.csv`
 
-Datasets contain:
+- matches.csv
+- deliveries.csv
+
+These datasets contain:
+
 - Match-level IPL information
-- Ball-by-ball IPL delivery data
+- Ball-by-ball delivery data
 - Team statistics
 - Venue information
 - Toss decisions
@@ -41,76 +43,119 @@ Datasets contain:
 
 ## Project Workflow
 
-### 1. Data Collection
+### Data Collection
 - Imported IPL datasets
 - Loaded match-level and ball-by-ball data
 
-### 2. Data Cleaning
+### Data Cleaning
 - Handled missing values
 - Standardized team names
-- Created derived features
+- Removed inconsistencies
 
-### 3. Feature Engineering
-Created advanced cricket KPIs such as:
+### Feature Engineering
+
+Created advanced cricket KPIs:
+
 - Total Runs
 - Boundary Percentage
 - Dot Ball Percentage
-- Match Phase Analysis
 - Strike Rate
 - Economy Rate
+- Match Phase Analysis
 
-### 4. Exploratory Data Analysis
+### Exploratory Data Analysis
+
 Performed:
-- Team performance analysis
-- Batting analysis
-- Bowling analysis
-- Toss impact analysis
-- Venue analysis
-- Chasing vs defending analysis
-- Player consistency analysis
 
-### 5. Machine Learning
+- Team Performance Analysis
+- Batting Analysis
+- Bowling Analysis
+- Toss Impact Analysis
+- Venue Analysis
+- Chasing vs Defending Analysis
+- Player Consistency Analysis
+
+### Machine Learning
+
 Built a Random Forest Classifier to predict IPL match winners using:
-- Team names
-- Toss winner
-- Toss decision
-- Venue
 
-### 6. Data Visualization
-Created multiple visualizations including:
-- Bar Charts
-- Pie Charts
-- Line Charts
-- Correlation Heatmaps
-- Feature Importance Graphs
-- Confusion Matrix
+- Team Names
+- Toss Winner
+- Toss Decision
+- Venue Information
 
 ---
 
 ## Key Insights
 
-- Teams chasing targets have higher win percentages.
-- Death overs contribute the highest scoring intensity.
-- Toss decisions significantly influence match outcomes.
-- Certain teams heavily depend on star batters.
-- Venue conditions strongly impact team performance.
-- Bowlers with higher dot-ball percentages create stronger pressure.
+- Teams chasing targets tend to win more matches.
+- Death overs contribute the highest scoring rate.
+- Toss decisions significantly influence outcomes.
+- Certain venues favor batting-heavy teams.
+- Dot-ball percentage strongly impacts bowling effectiveness.
+- Team consistency is a major factor in tournament success.
 
 ---
 
 ## Machine Learning Model
 
 ### Model Used
-- Random Forest Classifier
 
-### ML Workflow
-- Data preprocessing
-- Label encoding
-- Train-test split
-- Model training
+Random Forest Classifier
+
+### Workflow
+
+- Data Preprocessing
+- Label Encoding
+- Train-Test Split
+- Model Training
 - Prediction
-- Accuracy evaluation
-- Feature importance analysis
+- Accuracy Evaluation
+- Feature Importance Analysis
+
+---
+
+## Project Screenshots
+
+### Most Successful IPL Teams
+
+![Most Successful IPL Teams](Screenshots/team_wins.png)
+
+### Top Run Scorers
+
+![Top Run Scorers](Screenshots/top_run_scorers.png)
+
+### Top Wicket Takers
+
+![Top Wicket Takers](Screenshots/top_wicket_takers.png)
+
+### Season Wise Total Runs
+
+![Season Wise Total Runs](Screenshots/season_wise_runs.png)
+
+### Runs Across Match Phases
+
+![Runs Across Match Phases](Screenshots/match_phases.png)
+
+### Toss Decision Distribution
+
+![Toss Decision Distribution](Screenshots/toss_decision.png)
+
+### Winning Pattern Analysis
+
+![Winning Pattern Analysis](Screenshots/winning_pattern.png)
+
+### Chasing vs Defending Wins
+
+![Chasing vs Defending Wins](Screenshots/chasing_vs_defending.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](Screenshots/heatmap.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](Screenshots/confusion_matrix.png)
 
 ---
 
@@ -124,10 +169,19 @@ IPL-Cricket-Analytics/
 │   └── deliveries.csv
 │
 ├── notebook/
-│   ├── ipl_analysis.ipynb
-│   └── ipl_analysis.py
+│   └── ipl_analysis.ipynb
 │
-├── screenshots/
+├── Screenshots/
+│   ├── team_wins.png
+│   ├── top_run_scorers.png
+│   ├── top_wicket_takers.png
+│   ├── season_wise_runs.png
+│   ├── match_phases.png
+│   ├── toss_decision.png
+│   ├── winning_pattern.png
+│   ├── chasing_vs_defending.png
+│   ├── heatmap.png
+│   └── confusion_matrix.png
 │
 ├── README.md
 └── requirements.txt
@@ -135,83 +189,18 @@ IPL-Cricket-Analytics/
 
 ---
 
-# Project Screenshots
-
-## Most Successful IPL Teams
-
-![Most Successful IPL Teams](team_wins.png.png)
-
----
-
-## Top Run Scorers
-
-![Top Run Scorers](top_run_scorers.png.png)
-
----
-
-## Top Wicket Takers
-
-![Top Wicket Takers](top_wicket_takers.png.png)
-
----
-
-## Season Wise Total Runs
-
-![Season Wise Total Runs](season_wise_runs.png.png)
-
----
-
-## Runs Across Match Phases
-
-![Runs Across Match Phases](match_phases.png.png)
-
----
-
-## Toss Decision Distribution
-
-![Toss Decision Distribution](toss_decision.png.png)
-
----
-
-## Winning Pattern Analysis
-
-![Winning Pattern Analysis](winning_pattern.png.png)
-
----
-
-## Chasing vs Defending Wins
-
-![Chasing vs Defending Wins](chasing_vs_defending.png.png)
-
----
-
-## Correlation Heatmap
-
-![Correlation Heatmap](heatmap.png.png)
-
----
-
-## Confusion Matrix
-
-![Confusion Matrix](confusion_matrix.png.png)
-
----
-
 ## Installation
 
-Clone the repository:
-
 ```bash
-git clone https://github.com/yourusername/IPL-Cricket-Analytics.git
+git clone https://github.com/abhiii444/IPL-Cricket-Analytics.git
+cd IPL-Cricket-Analytics
 ```
 
-Install required libraries:
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-
-Run Jupyter Notebook or Google Colab notebook.
 
 ---
 
@@ -233,16 +222,26 @@ scikit-learn
 - Streamlit Deployment
 - Live IPL API Integration
 - Win Probability Prediction
-- Advanced Deep Learning Models
+- Deep Learning Models
 
 ---
 
 ## Conclusion
 
-This project demonstrates an end-to-end Data Analytics and Machine Learning workflow using real-world IPL cricket datasets. It combines statistical analysis, feature engineering, visualization, and predictive modeling to generate actionable cricket analytics insights.
+This project demonstrates an end-to-end Data Analytics and Machine Learning workflow using real-world IPL cricket datasets. It combines statistical analysis, feature engineering, visualization, and predictive modeling to generate actionable cricket insights.
 
 ---
 
 ## Author
 
-Abhishek Rawat
+**Abhishek Rawat**
+
+Aspiring Data Analyst
+
+### Skills
+
+- Excel
+- SQL
+- Python
+- Power BI
+- Machine Learning
